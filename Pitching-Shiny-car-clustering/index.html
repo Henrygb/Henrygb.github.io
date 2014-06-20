@@ -1,1 +1,160 @@
-This is just placeholding text
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pitching Shiny-car-clustering</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Pitching Shiny-car-clustering">
+  <meta name="author" content="Henrygb">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Pitching Shiny-car-clustering</h1>
+    <h2>You want to use this Shiny application</h2>
+    <p>Henrygb<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>What do you want?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Do you want to: </p>
+
+<ol>
+<li>Widen the number of cars you consider for your next purchase? </li>
+<li>Write comparisons of similar cars, but you don&#39;t know which cars are similar?</li>
+<li>Be a petrolhead and understand more about cars?</li>
+<li>Check checkboxes and slide sliders, just to see what happens?</li>
+<li>Peer assess work on the Developing Data Products course?</li>
+</ol>
+
+<p>If any of your answers are YES then <a href="https://henrygb.shinyapps.io/car_cluster/">this</a> is the interactive application for you.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Bored with flat R plots which make you think?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>You could look at static graphs like this which make you consider the numbers</p>
+
+<pre><code class="r">mpg &lt;- mtcars$mpg
+tons &lt;- mtcars$wt/2
+plot(mpg ~ tons, main = &quot;Embedded R code: fuel efficiency vs weight&quot;)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+<p><strong>You don&#39;t have time for that</strong></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Illustration of application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This is what you will see at <a href="https://henrygb.shinyapps.io/car_cluster/">https://henrygb.shinyapps.io/car_cluster/</a>, but there it is interactive:</p>
+
+<p><a href="https://henrygb.shinyapps.io/car_cluster/"><img src="clustering_cars.png" alt="Screen grab of shiny car clustering application"></a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Choices</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>If you want to save time: choose your priority issues and the number of clusters and you immediately get the answer redrawn in front of your eyes</li>
+<li><p>If you want to waste time: click and unclick the check boxes and slide the slider and watch the results magically change in front of your eyes</p></li>
+<li><p>If you want more cars in each cluster: reduce the numbers of clusters</p></li>
+<li><p>If you want tighter clusters of similar cars: increase the numbers of clusters</p></li>
+<li><p>If you want to save the world and your own money: choose mpg as a variable</p></li>
+<li><p>If it is all about speed: choose quarter-mile time as a variable</p></li>
+</ul>
+
+<p><strong>Go now</strong> to the <a href="https://henrygb.shinyapps.io/car_cluster/">Shiny car cluster application</a>. <em>You know you want to.</em></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='What do you want?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Bored with flat R plots which make you think?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Illustration of application'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Choices'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
