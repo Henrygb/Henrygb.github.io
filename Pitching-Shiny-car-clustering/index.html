@@ -40,12 +40,26 @@
     
 
     <!-- SLIDES -->
-    <slide class="" id="slide-1" style="background:;">
-  <hgroup>
-    <h2>What do you want?</h2>
-  </hgroup>
+    <slide class="" id="slide-1" style="background:pink;">
   <article data-timings="">
-    <p>Do you want to: </p>
+    <style>
+.title-slide {
+  background-color: #FF8811; /* #EDE0CF; #CBE7A5 ; #CA9F9D*/
+}
+
+.title-slide hgroup > h1{
+ font-family: serif, 'TimesNewRoman', 'Oswald', 'Helvetica', sanserif; 
+}
+
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2 {
+  color: # 1188FF;  /* 535E43; #EF5150*/
+}
+</style>
+
+<h2><font color="red">What do you want?</font></h2>
+
+<p>Do you want to: </p>
 
 <ol>
 <li>Widen the number of cars you consider for your next purchase? </li>
@@ -55,35 +69,34 @@
 <li>Peer assess work on the Developing Data Products course?</li>
 </ol>
 
-<p>If any of your answers are YES then <a href="https://henrygb.shinyapps.io/car_cluster/">this</a> is the interactive application for you.</p>
+<p>If any of your answers are <font color="red">YES</font> then <strong><a href="https://henrygb.shinyapps.io/car_cluster/">this</a></strong> is the interactive application for you.</p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
+<slide class="" id="slide-2" style="background:lightblue;">
   <hgroup>
-    <h2>Bored with flat R plots which make you think?</h2>
+    <h2><font color="red">Bored with flat R plots which make you think?</font></h2>
   </hgroup>
   <article data-timings="">
     <p>You could look at static graphs like this which make you consider the numbers</p>
 
-<pre><code class="r">mpg &lt;- mtcars$mpg
-tons &lt;- mtcars$wt/2
-plot(mpg ~ tons, main = &quot;Embedded R code: fuel efficiency vs weight&quot;)
+<pre><code class="r">mpg &lt;- mtcars$mpg; tons &lt;- mtcars$wt/2
+plot(mpg ~ tons, main=&quot;Embedded R code: fuel efficiency vs weight&quot;)
 </code></pre>
 
 <p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
 
-<p><strong>You don&#39;t have time for that</strong></p>
+<p><em>You don&#39;t have time for that.</em></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-3" style="background:;">
+<slide class="" id="slide-3" style="background:lightgreen;">
   <hgroup>
-    <h2>Illustration of application</h2>
+    <h2><font color="red">Illustration of application</font></h2>
   </hgroup>
   <article data-timings="">
     <p>This is what you will see at <a href="https://henrygb.shinyapps.io/car_cluster/">https://henrygb.shinyapps.io/car_cluster/</a>, but there it is interactive:</p>
@@ -94,18 +107,18 @@ plot(mpg ~ tons, main = &quot;Embedded R code: fuel efficiency vs weight&quot;)
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-4" style="background:;">
+<slide class="" id="slide-4" style="background:orange;">
   <hgroup>
-    <h2>Choices</h2>
+    <h2><font color="red">Choices</font></h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>If you want to save time: choose your priority issues and the number of clusters and you immediately get the answer redrawn in front of your eyes</li>
-<li><p>If you want to waste time: click and unclick the check boxes and slide the slider and watch the results magically change in front of your eyes</p></li>
-<li><p>If you want more cars in each cluster: reduce the numbers of clusters</p></li>
-<li><p>If you want tighter clusters of similar cars: increase the numbers of clusters</p></li>
-<li><p>If you want to save the world and your own money: choose mpg as a variable</p></li>
-<li><p>If it is all about speed: choose quarter-mile time as a variable</p></li>
+<li><strong>If you want to save time:</strong> choose your priority issues and the number of clusters and you immediately get the answer redrawn </li>
+<li><p><strong>If you want to waste time:</strong> click and unclick the check boxes and slide the slider and watch the results magically change in front of your eyes</p></li>
+<li><p><strong>If you want more cars in each cluster:</strong> reduce the numbers of clusters</p></li>
+<li><p><strong>If you want tighter clusters of similar cars:</strong> increase the numbers of clusters</p></li>
+<li><p><strong>If you want to save the world and your own money:</strong> choose mpg as a variable</p></li>
+<li><p><strong>If it is all about speed:</strong> choose quarter-mile time as a variable</p></li>
 </ul>
 
 <p><strong>Go now</strong> to the <a href="https://henrygb.shinyapps.io/car_cluster/">Shiny car cluster application</a>. <em>You know you want to.</em></p>
@@ -120,25 +133,25 @@ plot(mpg ~ tons, main = &quot;Embedded R code: fuel efficiency vs weight&quot;)
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='What do you want?'>
+        data-slide=1 title=''>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Bored with flat R plots which make you think?'>
+        data-slide=2 title='<font color="red">Bored with flat R plots which make you think?</font>'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Illustration of application'>
+        data-slide=3 title='<font color="red">Illustration of application</font>'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Choices'>
+        data-slide=4 title='<font color="red">Choices</font>'>
          4
       </a>
     </li>
